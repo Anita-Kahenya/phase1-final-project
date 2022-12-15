@@ -1,0 +1,97 @@
+ body{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    font-family: Arial;
+
+ }
+ .section-top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url(./image/istockphoto-1395177805-612x612.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 15s infinite ease-in-out;
+ }
+ @keyframes change {
+    0%
+    {
+        background-image: url(./image/istockphoto-510568014-612x612.jpg);
+
+    }
+
+    20%
+    {
+        background-image: url(./image/istockphoto-941328776-612x612.jpg);
+
+    }
+    40%
+    {
+        background-image: url(./image/istockphoto-480849669-612x612.jpg);
+
+    }
+    60%
+    {
+        background-image: url(./image/istockphoto-941328776-612x612.jpg);
+
+    }
+    80%
+    {
+        background-image: url(./image/istockphoto-1131101048-612x612.jpg);
+
+    }
+   100%
+    {
+        background-image: url(./image/istockphoto-1323655349-612x612.jpg);
+
+    }
+ }
+ nav{
+    position: fixed;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.6);
+    border-bottom: 1px solid #fff;
+
+ }
+ nav .logo{
+    padding: 22px 20px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #fff;
+
+ }
+ nav ul{
+    list-style-type: none;
+    float: right;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+ }
+ nav ul li a{
+    line-height: 80px;
+    color: #fff;
+    padding: 12px 30px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+ }
+ nav ul li a:hover{
+    background: rgb(245, 158, 172);
+    border-radius: 6px;
+ }
+ 

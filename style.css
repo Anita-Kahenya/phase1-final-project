@@ -96,3 +96,22 @@
  }
  /* stylin the contact section */
  
+
+#categories{
+   background-color: rgba(0, 0, 0, 0.531);
+   color: white;
+   margin-top: -1.5em;
+   display: flex;
+   flex-direction: column;
+   font-size: larger;
+   font-weight: bolder;
+}
+
+#categories option{
+   margin-top: 5px;
+   padding: 8;
+}
+
+#categories option:hover {
+   background-color: orchid;
+}

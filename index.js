@@ -63,11 +63,43 @@ function displayArt(detail){
     let description = document.createElement("p")
     description.textContent = detail.description
 
+    let cost = document.createElement("p")
+    cost.textContent = detail.cost
+
     let addToCart = document.createElement("button")
     addToCart.textContent = "Add Cart"
     addToCart.classList.add("cartbuttons")
-    card.append(img, artist, name, description, addToCart)
+    card.append(img, artist, name, description, cost, addToCart)
+
+    addToCart.addEventListener("click", e => {
+        addArtToCart(detail)
+    })
 
     card.classList.add("arts")
+    showArt.appendChild(card)
+}
+
+function viewCart(event) {
+    document.getElementById("cart").style.display = "block"
+}
+function hideCart(event) {
+    document.getElementById("cart").style.display = "none"
+}
+
+function addArtToCart(detail) {
+    const showArt= document.querySelector("#items")
+    let card=document.createElement("div")
+    let img= document.createElement("img")
+    img.setAttribute("src", detail.image)
+
+    let name = document.createElement("h3")
+    name.textContent = detail.name
+
+    let cost = document.createElement("p")
+    cost.textContent = detail.cost
+
+    card.append(img, name, cost)
+
+    card.classList.add("arts-cart")
     showArt.appendChild(card)
 }

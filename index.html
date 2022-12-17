@@ -26,16 +26,22 @@
             </div>
           </li>
           <li><a href="#">About</a></li>
-          <li><a href="#"> View cart</a></li>
+          <li><a href="#" onclick="viewCart(event)"> View cart</a></li>
           <li><a href="#">Contact us</a></li>
         </ul>
       </div>
       
     </nav>
   </div>
+  <div id="cart">
+    <div id="top"><h1>Checkout</h1><button id="cancel" onclick="hideCart(event)">X</button></div>
+    <div id="items"></div>
+    <button id="checkout">CHECKOUT</button>
+  </div>
  <div id="artisty">
  
  </div>
+
   <div>
    <section id="contact us">
     <div id="messagedetails">

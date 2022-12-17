@@ -28,7 +28,7 @@
             "cost":"300$"
         },
         {
-            "id":5,
+            "id":4,
             "name": "daisy flower",
             "Artist-name":"matt",
             "description":"flower",
@@ -38,7 +38,7 @@
         },
 
         {
-            "id":6,
+            "id":5,
             "name": "magical woman",
             "Artist-name":"ann hether",
             "description":"colorfull",
@@ -47,7 +47,7 @@
             "cost":"500$"
         },
         {
-            "id":7,
+            "id":6,
             "name": "painting girl",
             "Artist-name":"rachael",
             "description":" nature painting",
@@ -56,7 +56,7 @@
             "cost":"500$"
         },
         {
-            "id":8,
+            "id":7,
             "name": "circuit board",
             "Artist-name":"steven waltman",
             "description":"trace circuit",
@@ -65,7 +65,7 @@
             "cost":"500$"
         },
         {
-            "id":9,
+            "id":8,
             "name": "lion",
             "Artist-name":"steven waltman",
             "description":"happy lion",
@@ -74,7 +74,7 @@
             "cost":"800$"
         },
         {
-            "id":10,
+            "id":9,
             "name": "swan family",
             "Artist-name":"joseph",
             "description":"swan family",
@@ -83,7 +83,7 @@
             "cost":"500$"
         },
         {
-            "id":11,
+            "id":10,
             "name":"parrot",
             "Artist-name":"avian",
             "description":"drawing of a parot",
@@ -92,7 +92,7 @@
             "cost":"11$"
         },
         {
-            "id":12,
+            "id":11,
             "name": "bunny",
             "Artist-name":"steven waltman",
             "description":"a bunny in the woods",
@@ -101,7 +101,7 @@
             "cost":"500$"
         },
         {
-            "id":13,
+            "id":12,
             "name": "vintage",
             "Artist-name":"steven waltman",
             "description":"vintage drawing in the olden days",
@@ -110,7 +110,7 @@
             "cost":"200$"
         },
         {
-            "id":14,
+            "id":13,
             "name": "rose",
             "Artist-name":"ann hether",
             "description":"drawing of a red rose flower",
@@ -119,8 +119,8 @@
             "cost":"50$"
         },
         {
-            "id":15,
-            "name": "Horse",
+            "id":14,
+            "name": "Horses",
             "Artist-name":"steven waltman",
             "description":"running horses",
             "image":"https://cdn.pixabay.com/photo/2014/09/11/17/16/painting-441821__340.jpg",

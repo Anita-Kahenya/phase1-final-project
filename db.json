@@ -1,0 +1,133 @@
+{
+    "art":[
+        {
+            "id":1,
+            "name": "blue butterflies",
+            "Artist-name":"ann hether",
+            "description":"light blue glowing butterflies",
+            "image":"butterflies-514496__340.jpg",
+            "category":"nature",
+            "cost":"400$"
+        },
+        {
+            "id":2,
+            "name": "green moutains",
+            "Artist-name":"williams ",
+            "description":"high mountains",
+            "image":"https://cdn.pixabay.com/photo/2016/08/11/23/48/mountains-1587287__340.jpg",
+            "category":"nature",
+            "cost":"200$"
+        },
+        {
+            "id":3,
+            "name": "coastaol nature",
+            "Artist-name":"natalie andrew",
+            "description":"island in the middle of ocean",
+            "image":"https://cdn.pixabay.com/photo/2017/12/15/13/51/polynesia-3021072__340.jpg",
+            "category":"nature",
+            "cost":"300$"
+        },
+        {
+            "id":5,
+            "name": "daisy flower",
+            "Artist-name":"matt",
+            "description":"flower",
+            "image":"https://cdn.pixabay.com/photo/2015/04/19/08/32/marguerite-729510__340.jpg",
+            "category":"nature",
+            "cost":"500$"
+        },
+
+        {
+            "id":6,
+            "name": "magical woman",
+            "Artist-name":"ann hether",
+            "description":"colorfull",
+            "image":"https://cdn.pixabay.com/photo/2021/02/24/09/51/magical-6046020__340.jpg",
+            "category":"creativity",
+            "cost":"500$"
+        },
+        {
+            "id":7,
+            "name": "painting girl",
+            "Artist-name":"rachael",
+            "description":" nature painting",
+            "image":"https://cdn.pixabay.com/photo/2019/04/27/07/48/painting-4159435__340.jpg",
+            "category":"creativity",
+            "cost":"500$"
+        },
+        {
+            "id":8,
+            "name": "circuit board",
+            "Artist-name":"steven waltman",
+            "description":"trace circuit",
+            "image":"https://cdn.pixabay.com/photo/2018/02/16/11/05/trace-3157431__340.jpg",
+            "category":"creativity",
+            "cost":"500$"
+        },
+        {
+            "id":9,
+            "name": "lion",
+            "Artist-name":"steven waltman",
+            "description":"happy lion",
+            "image":"https://cdn.pixabay.com/photo/2017/12/11/15/34/lion-3012515__340.jpg",
+            "category":"animal",
+            "cost":"800$"
+        },
+        {
+            "id":10,
+            "name": "swan family",
+            "Artist-name":"joseph",
+            "description":"swan family",
+            "image":"https://cdn.pixabay.com/photo/2017/07/11/20/31/swan-2494925__340.jpg",
+            "category":"animal",
+            "cost":"500$"
+        },
+        {
+            "id":11,
+            "name":"parrot",
+            "Artist-name":"avian",
+            "description":"drawing of a parot",
+            "image":"https://cdn.pixabay.com/photo/2016/05/26/14/39/parrot-1417286__340.png",
+            "category":"animal",
+            "cost":"11$"
+        },
+        {
+            "id":12,
+            "name": "bunny",
+            "Artist-name":"steven waltman",
+            "description":"a bunny in the woods",
+            "image":"https://cdn.pixabay.com/photo/2016/12/04/21/58/rabbit-1882699__340.jpg",
+            "category":"animal",
+            "cost":"500$"
+        },
+        {
+            "id":13,
+            "name": "vintage",
+            "Artist-name":"steven waltman",
+            "description":"vintage drawing in the olden days",
+            "image":"https://cdn.pixabay.com/photo/2016/01/13/16/29/the-framework-1138291__340.jpg",
+            "category":"realism",
+            "cost":"200$"
+        },
+        {
+            "id":14,
+            "name": "rose",
+            "Artist-name":"ann hether",
+            "description":"drawing of a red rose flower",
+            "image":"https://cdn.pixabay.com/photo/2018/04/17/19/45/rose-3328481__340.png",
+            "category":"realism",
+            "cost":"50$"
+        },
+        {
+            "id":15,
+            "name": "Horse",
+            "Artist-name":"steven waltman",
+            "description":"running horses",
+            "image":"https://cdn.pixabay.com/photo/2014/09/11/17/16/painting-441821__340.jpg",
+            "category":"realism",
+            "cost":"250$"
+        }
+
+        
+    ]
+}

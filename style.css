@@ -103,13 +103,14 @@
    margin-top: -1.5em;
    display: flex;
    flex-direction: column;
-   font-size: larger;
+   font-size: 16px;
    font-weight: bolder;
+   display: none;
 }
 
 #categories option{
    margin-top: 5px;
-   padding: 8;
+   padding: 4px;
 }
 
 #categories option:hover {

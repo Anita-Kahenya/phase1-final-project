@@ -296,5 +296,19 @@ h2:after{
    background-color: #fff;
    border: 2px solid rgba(30,85, 250, 0.47);
 }
+.btn{
+   width: 100%;
+   padding: 0.5rem 1rem;
+   font-size: 1.1rem;
+   background-color: aqua;
+   cursor: pointer;
+   outline: none;
+   border: none;
+   color: #fff;
+   transition: .3s;
+}
+.btn:hover{
+   background-color: rgb(199, 33, 166);
+}
 
 

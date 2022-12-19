@@ -7,8 +7,8 @@ Lily Art galleries is about  display different  type of art online. On this plat
 **
 
 ## SCREENSHOTS
-- link 1
-- link 2
+![](./image/Screenshot%20from%202022-12-19%2016-29-54.png)
+
 
 
 ****

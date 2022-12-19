@@ -31,21 +31,22 @@
  }
   */
   #history{
-   display: hidden;
-   background-color: floralwhite;
-   color: rgb(87, 87, 87);
-   margin-top: 20px;
-   background: url(./image/istockphoto-1089376916-612x612.jpg) no-repeat;
-   background-size: contain ;
-  }
-  #history h1{
-margin-top: 10%;
-  } 
-  #history p{
-   margin: 0 auto;
-   justify-content: center;
+   display: flex;
    align-items: center;
+   justify-content: space-around;
+   padding: 20px;
+   margin: 20px 20px;
+   height:100%;
+  
   }
+  #historty img{
+   width: 75px;
+  }
+  #history  div{
+   padding: 5pc;
+   color:black;
+  }
+ 
 
 
  .section-top{

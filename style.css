@@ -30,6 +30,23 @@
 
  }
   */
+  #history{
+   display: hidden;
+   background-color: floralwhite;
+   color: rgb(87, 87, 87);
+   margin-top: 20px;
+   background: url(./image/istockphoto-1089376916-612x612.jpg) no-repeat;
+   background-size: contain ;
+  }
+  #history h1{
+margin-top: 10%;
+  } 
+  #history p{
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+  }
+
 
  .section-top{
     width: 100%;
@@ -261,7 +278,7 @@
    top: 0%;
    width: 100%;
    height: 100%;
-   background: url(./imagefinal/istockphoto-82214615-612x612.jpg) no-repeat center;
+   background: url(https://cdn.pixabay.com/photo/2022/09/13/11/29/girl-7451711_960_720.jpg) no-repeat center;
    background-size: cover;
    z-index: -1;
    filter: blur(50px); 
@@ -278,7 +295,7 @@
 }
 .left{
    height: 100%;
-   background:url(./imagefinal/istockphoto-82214615-612x612.jpg) no-repeat center ;
+   background:url(https://cdn.pixabay.com/photo/2022/09/13/11/29/girl-7451711_960_720.jpg) no-repeat center ;
    background-size: cover;
 }
 .right{

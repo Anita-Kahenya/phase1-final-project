@@ -20,11 +20,15 @@ function categoryClick(event){
 
 function filterArts(cat) {
     
-    fetch("http://localhost:3000/art")
+    fetch("https://api.jsonbin.io/v3/b/63a0708501a72b59f2347c5c/latest",{
+        headers:{
+            "X-Master-Key":"$2b$10$.PDAmlgr1Tbjg/pEtIqQH.v1jwP0ZJEXajNZz5L/rFYWK.21kkwDC"
+        }
+    })
     .then(res=>res.json())
     .then(arts => {
        
-       let filteredarts =  arts.filter(art => art.category === cat)
+       let filteredarts =  arts.record.art.filter(art => art.category === cat)
         document.getElementById("artisty").textContent = ""
        GetDetails(filteredarts)
 
@@ -35,13 +39,19 @@ function handleleave (event){
     document.querySelector("#categories").style.display = "none"
 
 }
-function fetchData(url){
-    fetch(url)
+function fetchData(url,){
+    fetch(url,{
+        headers:{
+            "X-Master-Key":"$2b$10$.PDAmlgr1Tbjg/pEtIqQH.v1jwP0ZJEXajNZz5L/rFYWK.21kkwDC"
+        }
+    })
     .then(res=>res.json())
     .then(arts=> {
-        GetDetails(arts)})
+        GetDetails(arts.record.art)
+       
+    })
 }
-fetchData( "http://localhost:3000/art")
+fetchData("https://api.jsonbin.io/v3/b/63a0708501a72b59f2347c5c/latest")
 
 function GetDetails(arts){
     for (let art of arts){

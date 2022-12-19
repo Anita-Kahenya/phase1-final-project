@@ -9,6 +9,28 @@
     font-family: Arial;
 
  }
+ /* #quote{
+   margin-top: 50%;
+   margin: 75px;
+   width:75%;
+   display: block;
+   padding: 25%;
+   height: 100%;
+ }
+ #quote p{
+   position: absolute;
+   bottom: 0;
+   left: 0%;
+   font-weight:800;
+   font-size: xx-large;
+   color: rgb(139, 13, 139);
+   font-style:italic;
+   text-align: left;
+   
+
+ }
+  */
+
  .section-top{
     width: 100%;
     height: 100%;
@@ -75,6 +97,7 @@
     font-weight: bold;
     text-transform: uppercase;
     color: #fff;
+    font-style: italic;
 
  }
  nav ul{
